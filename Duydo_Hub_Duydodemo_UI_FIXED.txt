@@ -724,7 +724,7 @@ local function AuthenticateAndLoad()
 
         -- Load Duydodemo_fixed only after the correct key is entered.
         local ok, err = pcall(function()
-            local source = game:HttpGet("https://raw.githubusercontent.com/duydo967/Duydodz/refs/heads/main/Duydodemo_fixed.txt")
+            local source = game:HttpGet("https://raw.githubusercontent.com/duydo967/Duydodz/refs/heads/main/Duydodemoscript.txt")
             local fn = loadstring(source)
             if not fn then
                 error("Duydodemo_fixed.txt could not be compiled")
