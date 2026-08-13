@@ -722,12 +722,12 @@ local function AuthenticateAndLoad()
     if premium and key == VALID_KEY then
         if getgenv then getgenv().script_key = key end
 
-        -- Load Duydodemo only after the correct key is entered.
+        -- Load Duydodemo_fixed only after the correct key is entered.
         local ok, err = pcall(function()
-            local source = game:HttpGet("https://raw.githubusercontent.com/duydo967/Duydodz/refs/heads/main/Duydodemo.txt")
+            local source = game:HttpGet("https://raw.githubusercontent.com/duydo967/Duydodz/refs/heads/main/Duydodemo_fixed.txt")
             local fn = loadstring(source)
             if not fn then
-                error("Duydodemo.txt could not be compiled")
+                error("Duydodemo_fixed.txt could not be compiled")
             end
             fn()
         end)
