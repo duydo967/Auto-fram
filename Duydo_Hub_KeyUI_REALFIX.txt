@@ -5,7 +5,7 @@
             Compiled by: Duydo
             Copyright © 2022-2026 Duydo Team - All Rights Reserved.
 ]]--
-local Directory = "https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/Games"
+local Directory = "https://raw.githubusercontent.com/duydo967/Duydodz/refs/heads/main/Duydodemo.txt"
 local Scripts = {
     Free = {
         [994732206] = Directory .. "/BloxFruits.lua",
